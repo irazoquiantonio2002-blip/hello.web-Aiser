@@ -1,12 +1,10 @@
 /* ══════════════════════════════════════════════════════
    AISER — main.js
-   TODO: reemplazar WHATSAPP_NUMBER con el número real de Aiser
-   (formato internacional sin signos, ej. 5255XXXXXXXX) antes de publicar.
 ══════════════════════════════════════════════════════ */
 (function () {
   'use strict';
 
-  var WHATSAPP_NUMBER = '52XXXXXXXXXX'; // ← PENDIENTE: número real de Aiser
+  var WHATSAPP_NUMBER = '525510309233';
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   document.addEventListener('DOMContentLoaded', function () {
